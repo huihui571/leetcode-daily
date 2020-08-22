@@ -1,0 +1,1552 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pat",
+				"path\t  vector<string>"
+			],
+			[
+				"pa",
+				"path\t  queue<vector<string> >"
+			],
+			[
+				"en",
+				"end(…)\t  [2 overloads]"
+			],
+			[
+				"vis",
+				"visited2\t  unordered_set<string>"
+			],
+			[
+				"vi",
+				"visited1\t  unordered_set<string>"
+			],
+			[
+				"end",
+				"endWord\t  string"
+			],
+			[
+				"unor",
+				"unordered_set>\t  File"
+			],
+			[
+				"inc",
+				"inc\tc++ include headers"
+			],
+			[
+				"uno",
+				"unordered_map<typename _Key, typename _Tp>\t  \n<unordered_map>"
+			],
+			[
+				"cur",
+				"curWord"
+			],
+			[
+				"que",
+				"queue<typename _Tp>\t  \n<queue>"
+			],
+			[
+				"has",
+				"hash_set\t  unordered_set<string>"
+			],
+			[
+				"ha",
+				"hash_set\t  unordered_set<string>"
+			],
+			[
+				"hash",
+				"hash_map>\t  File"
+			],
+			[
+				"nex",
+				"next_neighbor"
+			],
+			[
+				"get_ne",
+				"get_neighbor(string cur, vector<string> &bank)\t  vector<string>"
+			],
+			[
+				"cha",
+				"char_set\t  vector<char>"
+			],
+			[
+				"set",
+				"set<typename _Key>\t  \n<set>"
+			],
+			[
+				"p",
+				"push(…)\t  [2 overloads]"
+			],
+			[
+				"re",
+				"replace(…)\t  [15 overloads]"
+			],
+			[
+				"INT_",
+				"INT_MIN\t  Text"
+			],
+			[
+				"le",
+				"leftDepth\t  int"
+			],
+			[
+				"INTMIN",
+				"INT64_MIN\t  \n<stdint.h>"
+			],
+			[
+				"INT6",
+				"INT64_MIN\t  \n<stdint.h>"
+			],
+			[
+				"INt3",
+				"INT32_MIN\t  \n<stdint.h>"
+			],
+			[
+				"INM",
+				"INT_MIN\t  Text"
+			],
+			[
+				"IN",
+				"INT32_MIN\t  \n<stdint.h>"
+			],
+			[
+				"inver",
+				"invert_tree(TreeNode *root)\t  void"
+			],
+			[
+				"cu",
+				"cur\t  Node *"
+			],
+			[
+				"reverse",
+				"reverse(_BIter, _BIter)\t  void\n<algorithm>"
+			],
+			[
+				"ch",
+				"children\t  vector<Node *>"
+			],
+			[
+				"postor",
+				"post_orderN(Node *root, vector<int> path)\t  void"
+			],
+			[
+				"preor",
+				"pre_order(TreeNode *root, vector<int> path)\t  void"
+			],
+			[
+				"str",
+				"strs\t  vector<string> &"
+			],
+			[
+				"rea",
+				"rear\t  int"
+			],
+			[
+				"fr",
+				"front"
+			],
+			[
+				"nu",
+				"nums1\t  vector<int> &"
+			],
+			[
+				"he",
+				"height\t  int"
+			],
+			[
+				"Li",
+				"ListNode"
+			],
+			[
+				"n",
+				"nums1\t  vector<int> &"
+			],
+			[
+				"n1",
+				"nums1"
+			],
+			[
+				"ve",
+				"vector<typename _Tp>\t  \n<vector>"
+			],
+			[
+				"las",
+				"last\t  int"
+			],
+			[
+				"last",
+				"last_last\t  int"
+			],
+			[
+				"ma",
+				"max(…)\t  [4 overloads]\n<algorithm>"
+			],
+			[
+				"max",
+				"std::max(…)\t  [4 overloads]\n<algorithm>"
+			],
+			[
+				"i",
+				"i\t  int"
+			],
+			[
+				"vect",
+				"vector<typename _Tp>\t  Class"
+			],
+			[
+				"of",
+				"offset"
+			],
+			[
+				"sort",
+				"sortList(ListNode *head)\t  ListNode *"
+			],
+			[
+				"l",
+				"l2\t  ListNode *"
+			],
+			[
+				"p2",
+				"p2-"
+			],
+			[
+				"cou",
+				"cout\tcout..."
+			],
+			[
+				"reor",
+				"reorderList"
+			],
+			[
+				"reord",
+				"reorderN(ListNode *head, int length)\t  ListNode *"
+			],
+			[
+				"new",
+				"new type(expressions)\t  Snippet"
+			],
+			[
+				"cop",
+				"copyRandomList"
+			],
+			[
+				"nwe",
+				"new_node"
+			],
+			[
+				"revB",
+				"reverseBetween(ListNode *head, int m, int n)\t  ListNode *"
+			],
+			[
+				"revers",
+				"reverseN(ListNode *head, int n)\t  ListNode *"
+			],
+			[
+				"if",
+				"if\tIf Condition"
+			],
+			[
+				"list",
+				"ListNode\t  Class"
+			],
+			[
+				"m",
+				"m\t  unordered_map<ListNode *, int, equal_to<ListNode *> >"
+			],
+			[
+				"eq",
+				"equal_to<typename _Tp>\t  \n<functional>"
+			],
+			[
+				"tr",
+				"tr1\t  Module"
+			],
+			[
+				"pl",
+				"p_low\t  ListNode *"
+			],
+			[
+				"tm",
+				"tmp\t  ListNode *"
+			],
+			[
+				"id",
+				"cam_id"
+			],
+			[
+				"pre",
+				"predict_"
+			],
+			[
+				"pred",
+				"predict"
+			],
+			[
+				"pos",
+				"pos2\t  string::size_type"
+			],
+			[
+				"po",
+				"pos1\t  string::size_type"
+			],
+			[
+				"s",
+				"size_type\t  Interface"
+			],
+			[
+				"ne",
+				"new type(expressions)\t  Snippet"
+			],
+			[
+				"g",
+				"gdb"
+			],
+			[
+				"pai",
+				"pair(…)\t  [3 overloads]"
+			],
+			[
+				"vec",
+				"vector<typename _Tp>\t  \n<vector>"
+			],
+			[
+				"map",
+				"map<typename _Key, typename _Tp>\t  \n<map>"
+			],
+			[
+				"cla",
+				"class_id\t  int"
+			],
+			[
+				"car",
+				"car_num"
+			],
+			[
+				"cl",
+				"class_id\t  int"
+			],
+			[
+				"stop",
+				"stop_line\t  float [4][3]"
+			],
+			[
+				"sto",
+				"stop_line\t  float [4][3]"
+			],
+			[
+				"def",
+				"define macro\t  Snippet"
+			],
+			[
+				"class",
+				"class_id"
+			],
+			[
+				"gp",
+				"g_print"
+			],
+			[
+				"cen",
+				"center"
+			],
+			[
+				"cent",
+				"center_bottom"
+			],
+			[
+				"s1",
+				"s1_size\t  int"
+			],
+			[
+				"q",
+				"q1\t  queue<int>"
+			],
+			[
+				"pr",
+				"printf\tprintf …"
+			],
+			[
+				"pair",
+				"pair<typename _T1, typename _T2>\t  \n<utility>"
+			],
+			[
+				"in",
+				"inc\t#include <…>"
+			],
+			[
+				"using",
+				"using namespace identifier;\t  Snippet"
+			],
+			[
+				"bit",
+				"bits/\t  Folder"
+			],
+			[
+				"pri",
+				"printf(const char *__restrict _Format, ...)\t  int\n\"stdio.h\""
+			],
+			[
+				"retu",
+				"return false\treturn false;"
+			],
+			[
+				"stri",
+				"string\tstring"
+			],
+			[
+				"numc",
+				"num_classes"
+			],
+			[
+				"an",
+				"anchor_per_scale"
+			],
+			[
+				"upsa",
+				"upsample_method\tstatement"
+			],
+			[
+				"inp",
+				"input_data\tstatement"
+			],
+			[
+				"inpu",
+				"input_data"
+			],
+			[
+				"cal",
+				"class\tNew Class"
+			],
+			[
+				"fo",
+				"for\tkeyword"
+			],
+			[
+				"tens",
+				"tensorflow\tmodule"
+			],
+			[
+				"conc",
+				"concat_dim\tparam"
+			],
+			[
+				"al",
+				"alpha\tparam"
+			],
+			[
+				"fi",
+				"filters_shape\tparam"
+			],
+			[
+				"ones",
+				"ones_initializer\tclass"
+			],
+			[
+				"gam",
+				"gamma_initializer\tparam"
+			],
+			[
+				"zero",
+				"zeros_initializer\tclass"
+			],
+			[
+				"beat",
+				"beta_initializer\tparam"
+			],
+			[
+				"pad",
+				"padding\tparam"
+			],
+			[
+				"strid",
+				"stride\tstatement"
+			],
+			[
+				"stride",
+				"strides\tparam"
+			],
+			[
+				"con",
+				"conv2d\tfunction"
+			],
+			[
+				"rando_no",
+				"random_normal_initializer\tclass"
+			],
+			[
+				"f",
+				"fdoc\tpython function doc snippet"
+			],
+			[
+				"Ba",
+				"BatchNorm2d\tclass"
+			],
+			[
+				"for",
+				"for\tFor Loop"
+			],
+			[
+				"vector",
+				"vector\tD:\\ProgramFiles\\LLVM\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++"
+			],
+			[
+				"ad",
+				"addLength\tvoid addLength(double off)"
+			],
+			[
+				"li",
+				"line\tLine line"
+			],
+			[
+				"util",
+				"util.h"
+			],
+			[
+				"this",
+				"this\tLine * this"
+			],
+			[
+				"stdi",
+				"stdio.h\tD:\\ProgramFiles\\LLVM\\x86_64-w64-mingw32\\include"
+			],
+			[
+				"ut",
+				"util.hpp"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "第09课丨深度优先搜索和广度优先搜索/126-单词接龙II.cpp",
+			"settings":
+			{
+				"buffer_size": 1407,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/c++ cmd.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/c++ cmd.sublime-build",
+					""
+				],
+				[
+					"Packages/User/c++ cmd.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/c++ cmd.sublime-build",
+					"Debug"
+				],
+				[
+					"Packages/User/Make - Run.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/c++ cmd.sublime-build",
+				"Debug"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/c++ cmd.sublime-build",
+					""
+				],
+				[
+					"Packages/User/c++ cmd.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/c++ cmd.sublime-build",
+					"Debug"
+				]
+			],
+			[
+				"Packages/User/c++ cmd.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packi",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntaxc",
+				"Set Syntax: C++"
+			],
+			[
+				"set syntax",
+				"Set Syntax: C11"
+			],
+			[
+				"packre",
+				"Package Control: Remove Package"
+			],
+			[
+				"packr",
+				"Package Control: Remove Package"
+			],
+			[
+				"set syntax cu",
+				"Set Syntax: CUDA C++"
+			],
+			[
+				"packen",
+				"Package Control: Enable Package"
+			],
+			[
+				"packdi",
+				"Package Control: Disable Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdo",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"setm",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"makr",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"markdownli",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markmo",
+				"Markmon launch"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"packe",
+				"Package Control: Enable Package"
+			],
+			[
+				"packl",
+				"Package Control: List Packages"
+			],
+			[
+				"packd",
+				"Package Control: Disable Package"
+			],
+			[
+				"markdown",
+				"MarkdownEditing: Change color scheme..."
+			],
+			[
+				"packup",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"",
+				"LSP: Rename Symbol"
+			],
+			[
+				"debadd",
+				"Debugger: Add Watch Expression"
+			],
+			[
+				"debuadd",
+				"Debugger: Add Watch Expression"
+			],
+			[
+				"debugg",
+				"Debugger: Add Watch Expression"
+			],
+			[
+				"debuggeradd",
+				"Debugger: Add Watch Expression"
+			],
+			[
+				"debugger",
+				"Debugger: Add Watch Expression"
+			],
+			[
+				"lspen",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"lsp:",
+				"LSP: Disable Language Server Globally"
+			],
+			[
+				"debggeradw",
+				"Debugger: Add Watch Expression"
+			],
+			[
+				"debugger:",
+				"Debugger: Add Watch Expression"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"sftp",
+				"SFTP: Show Panel"
+			],
+			[
+				"Package Control: dis",
+				"Package Control: Disable Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"lsp",
+				"LSP: Toggle Diagnostics Panel"
+			],
+			[
+				"de",
+				"File: Delete"
+			],
+			[
+				"snipp",
+				"SnippetMaker: Edit Snippet"
+			],
+			[
+				"snippetm",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"snip",
+				"SnippetMaker: Edit Snippet"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Function"
+			],
+			[
+				"rainbow",
+				"Preferences: RainbowBrackets Settings"
+			],
+			[
+				"rain",
+				"RainbowBrackets: tinct view"
+			],
+			[
+				"packinstal",
+				"Package Control: Install Package"
+			],
+			[
+				"setpy",
+				"Set Syntax: Python"
+			],
+			[
+				"packer",
+				"Package Control: Remove Package"
+			],
+			[
+				"syntcm",
+				"Set Syntax: CMake"
+			],
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"gdb",
+				"SublimeGDB: Show Input Field"
+			],
+			[
+				"gdbst",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"gdbstr",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"debugger:i",
+				"Debugger: Install Adapters"
+			],
+			[
+				"Debu",
+				"Debugger: Start (no debug)"
+			],
+			[
+				"Deb",
+				"Debugger: Start (no debug)"
+			],
+			[
+				"debug",
+				"Debugger: Open"
+			],
+			[
+				"bu",
+				"Build With: c++ cmd"
+			],
+			[
+				"Debadd",
+				"Debugger: Add or Select Configuration"
+			],
+			[
+				"d",
+				"Debugger: Open"
+			],
+			[
+				"Debq",
+				"Debugger: Quit"
+			],
+			[
+				"deb",
+				"Debugger: Add or Select Configuration"
+			],
+			[
+				"Deadd",
+				"Debugger: Add or Select Configuration"
+			],
+			[
+				"De",
+				"Debugger: Open"
+			],
+			[
+				"Debs",
+				"Debugger: Start"
+			],
+			[
+				"Debug",
+				"Debugger: Add Function Breakpoint"
+			],
+			[
+				"packei",
+				"Package Control: Install Package"
+			],
+			[
+				"GDB",
+				"SublimeGDB: Open Register View"
+			],
+			[
+				"sublimeGDB",
+				"SublimeGDB: Show Input Field"
+			],
+			[
+				"syntapy",
+				"Set Syntax: Python"
+			],
+			[
+				"tabn",
+				"TabNine: Open Configuration"
+			],
+			[
+				"tab",
+				"TabNine: Open Configuration"
+			],
+			[
+				"tabni",
+				"TabNine: Open Configuration"
+			],
+			[
+				"packu",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"lspdis",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"lspena",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"lspe",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"sftppa",
+				"SFTP: Show Panel"
+			],
+			[
+				"sft",
+				"SFTP: Show Panel"
+			],
+			[
+				"git:ch",
+				"Git: Checkout Current File"
+			],
+			[
+				"sftpp",
+				"SFTP: Show Panel"
+			],
+			[
+				"git:co",
+				"Git: Commit"
+			],
+			[
+				"git:ad",
+				"Git: Add Current File"
+			],
+			[
+				"git:check",
+				"Git: Checkout Current File"
+			],
+			[
+				"git:dif",
+				"Git: Diff Current File"
+			],
+			[
+				"LSP:e",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"syntax:make",
+				"Set Syntax: Makefile"
+			],
+			[
+				"sfptp",
+				"SFTP: Show Panel"
+			],
+			[
+				"packri",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: r",
+				"Package Control: Remove Package"
+			],
+			[
+				"sftpa",
+				"SFTP: Show Panel"
+			],
+			[
+				"pcki",
+				"Package Control: Install Package"
+			],
+			[
+				"pcke",
+				"Package Control: Enable Package"
+			],
+			[
+				"pckl",
+				"Package Control: List Packages"
+			],
+			[
+				"pckd",
+				"Package Control: Disable Package"
+			],
+			[
+				"setsc++",
+				"Set Syntax: C++"
+			],
+			[
+				"pckr",
+				"Package Control: Remove Package"
+			],
+			[
+				"pck",
+				"Package Control: Install Package"
+			],
+			[
+				"u",
+				"UI: Select Theme"
+			],
+			[
+				"ay",
+				"ayu: Activate theme"
+			],
+			[
+				"filediff",
+				"FileDiffs: Menu"
+			],
+			[
+				"pac",
+				"Package Control: Disable Package"
+			],
+			[
+				"set syntpy",
+				"Set Syntax: Python"
+			],
+			[
+				"git",
+				"Set Syntax: Git Log"
+			],
+			[
+				"packageC",
+				"Package Control: Install Package"
+			],
+			[
+				":packag",
+				"Package Control: Enable Package"
+			],
+			[
+				"pac:ov",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"seth",
+				"Set Syntax: HTML"
+			],
+			[
+				"setj",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pcl",
+				"Package Control: List Packages"
+			],
+			[
+				"pce",
+				"Package Control: Enable Package"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"pcr",
+				"Package Control: Remove Package"
+			],
+			[
+				"pcL",
+				"Package Control: List Packages"
+			],
+			[
+				"jq",
+				"Snippet: jQuery(document).ready"
+			],
+			[
+				"paCd",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: E",
+				"Package Control: Enable Package"
+			],
+			[
+				"pacCe",
+				"Package Control: Enable Package"
+			],
+			[
+				"pacCI",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: I",
+				"Package Control: Install Package"
+			],
+			[
+				"packC:I",
+				"Package Control: Install Package"
+			],
+			[
+				"packCI",
+				"Package Control: Install Package"
+			],
+			[
+				"packageContI",
+				"Package Control: Install Package"
+			],
+			[
+				"packC",
+				"Package Control: Disable Package"
+			],
+			[
+				"packC:r",
+				"Package Control: Remove Package"
+			],
+			[
+				"packC:i",
+				"Package Control: Install Package"
+			],
+			[
+				"packC:",
+				"Package Control: Remove Package"
+			],
+			[
+				"packC:in",
+				"Package Control: Install Package"
+			],
+			[
+				"PackC:",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 540.0
+	},
+	"console":
+	{
+		"height": 205.0,
+		"history":
+		[
+			"echo ${file}",
+			"TabNine::sem",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'https://github.com/HBLong/channel_v3_daily/raw/master/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ',' ')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/workspace/c++/算法训练营作业",
+		"/D/workspace/c++/算法训练营作业/第09课丨深度优先搜索和广度优先搜索"
+	],
+	"file_history":
+	[
+		"/D/workspace/c++/算法训练营作业/第09课丨深度优先搜索和广度优先搜索/127-单词接龙.cpp",
+		"/D/workspace/ilearn/traffic/code/darknet-master-0104/src/maxpool_layer_kernels.cu",
+		"/D/ProgramFiles/Sublime Text Build 3126 x64/Data/Packages/User/CscopeSublime.sublime-settings",
+		"/D/ProgramFiles/Sublime Text Build 3126 x64/Data/Packages/Cscope/CscopeSublime.sublime-settings",
+		"/D/workspace/c++/算法训练营作业/第09课丨深度优先搜索和广度优先搜索/126-单词接龙II.cpp",
+		"/D/workspace/c++/算法训练营作业/第09课丨深度优先搜索和广度优先搜索/433-最小基因变化.cpp",
+		"/D/workspace/c++/算法训练营作业/第09课丨深度优先搜索和广度优先搜索/BFS&DFS.md",
+		"/D/workspace/c++/算法训练营作业/第09课丨深度优先搜索和广度优先搜索/102-二叉树的层序遍历.cpp",
+		"/D/workspace/c++/算法训练营作业/第06课丨树、二叉树、二叉搜索树/二叉树的遍历.md",
+		"/D/workspace/c++/算法训练营作业/第06课丨树、二叉树、二叉搜索树/590-N叉树的后序遍历.cpp",
+		"/D/workspace/c++/算法训练营作业/第08课丨分治、回溯/回溯法.md",
+		"/D/workspace/c++/算法训练营作业/第09课丨深度优先搜索和广度优先搜索/BFS/DFS.md",
+		"/D/workspace/c++/算法训练营作业/第08课丨分治、回溯/051-N皇后.cpp",
+		"/D/workspace/c++/算法训练营作业/第06课丨树、二叉树、二叉搜索树/429-N叉树的层序遍历.cpp",
+		"/D/workspace/c++/算法训练营作业/第06课丨树、二叉树、二叉搜索树/094-二叉树的中序遍历.cpp",
+		"/D/workspace/c++/算法训练营作业/第06课丨树、二叉树、二叉搜索树/589-N叉树的前序遍历.cpp",
+		"/D/workspace/c++/算法训练营作业/第08课丨分治、回溯/017-电话号码的字母组合.cpp",
+		"/D/workspace/c++/算法训练营作业/第08课丨分治、回溯/078-子集.cpp",
+		"/D/workspace/c++/算法训练营作业/第08课丨分治、回溯/169-多数元素.cpp",
+		"/D/workspace/c++/算法训练营作业/第08课丨分治、回溯/050-Pow(x, n).cpp",
+		"/D/workspace/c++/算法训练营作业/第08课丨分治、回溯/046-全排列.cpp",
+		"/D/workspace/c++/算法训练营作业/第08课丨分治、回溯/047-全排列II.cpp",
+		"/D/workspace/c++/算法训练营作业/第08课丨分治、回溯/077-组合.cpp",
+		"/D/workspace/c++/算法训练营作业/第07课丨泛型递归、树的递归/022-括号生成.cpp",
+		"/D/workspace/c++/算法训练营作业/第07课丨泛型递归、树的递归/105-从前序与中序遍历序列构造二叉树.cpp",
+		"/D/workspace/c++/算法训练营作业/第07课丨泛型递归、树的递归/236-二叉树的最近公共祖先.cpp",
+		"/D/workspace/c++/算法训练营作业/第07课丨泛型递归、树的递归/098-验证二叉搜索树.cpp",
+		"/D/workspace/c++/算法训练营作业/第07课丨泛型递归、树的递归/104-二叉树的最大深度.cpp",
+		"/D/workspace/c++/算法训练营作业/第07课丨泛型递归、树的递归/070-爬楼梯.cpp",
+		"/D/workspace/c++/算法训练营作业/第07课丨泛型递归、树的递归/111-二叉树的最小深度.cpp",
+		"/D/workspace/c++/算法训练营作业/第07课丨泛型递归、树的递归/226-翻转二叉树.cpp",
+		"/D/workspace/c++/算法训练营作业/第03课丨数组、链表、跳表/070-爬楼梯.cpp",
+		"/D/workspace/c++/算法训练营作业/第06课丨树、二叉树、二叉搜索树/144-二叉树的前序遍历.cpp",
+		"/D/workspace/c++/算法训练营作业/第05课丨哈希表、映射、集合/049-字母异位词分组.cpp",
+		"/D/workspace/c++/算法训练营作业/第05课丨哈希表、映射、集合/242-有效的字母异位词.cpp",
+		"/D/workspace/c++/算法训练营作业/第03课丨数组、链表、跳表/001-两数之和.cpp",
+		"/D/workspace/c++/算法训练营作业/第05课丨哈希表、映射、集合/001-两数之和.cpp",
+		"/D/workspace/c++/算法训练营作业/第04课丨栈、队列、优先队列、双端队列/042-接雨水.cpp",
+		"/D/workspace/c++/算法训练营作业/第04课丨栈、队列、优先队列、双端队列/641-设计循环双端队列.cpp",
+		"/D/workspace/c++/算法训练营作业/第04课丨栈、队列、优先队列、双端队列/239-滑动窗口最大值.cpp",
+		"/D/workspace/c++/算法训练营作业/第04课丨栈、队列、优先队列、双端队列/单调栈总结.md",
+		"/D/workspace/ilearn/stitcher/OpenPano-master/README.md",
+		"/D/workspace/c++/算法训练营作业/第04课丨栈、队列、优先队列、双端队列/020-有效的括号.cpp",
+		"/D/workspace/c++/算法训练营作业/第04课丨栈、队列、优先队列、双端队列/496-下一个更大元素I.cpp",
+		"/D/workspace/c++/算法训练营作业/第04课丨栈、队列、优先队列、双端队列/739-每日温度.cpp",
+		"/D/workspace/c++/算法训练营作业/第04课丨栈、队列、优先队列、双端队列/084-柱状图中最大的矩形.cpp",
+		"/D/workspace/c++/算法训练营作业/第04课丨栈、队列、优先队列、双端队列/155-最小栈.cpp",
+		"/D/ProgramFiles/Sublime Text Build 3126 x64/Data/Packages/User/Markdown.sublime-settings",
+		"/D/workspace/ilearn/traffic/Experiment/single_camera/Detector/TensorRT_yolo3_module/README.md",
+		"/D/ProgramFiles/Sublime Text Build 3126 x64/Data/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/D/ProgramFiles/Sublime Text Build 3126 x64/Data/Packages/User/MultiMarkdown.sublime-settings",
+		"/D/ProgramFiles/Sublime Text Build 3126 x64/Data/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/D/ProgramFiles/Sublime Text Build 3126 x64/Data/Packages/User/Markdown (Standard).sublime-settings",
+		"/D/ProgramFiles/Sublime Text Build 3126 x64/Data/Packages/MarkdownEditing/MultiMarkdown.sublime-settings",
+		"/D/workspace/c++/算法训练营作业/第03课丨数组、链表、跳表/189-旋转数组.cpp",
+		"/D/workspace/c++/算法训练营作业/第03课丨数组、链表、跳表/026-删除排序数组中的重复项.cpp",
+		"/D/workspace/c++/算法训练营作业/第03课丨数组、链表、跳表/206-反转链表.cpp",
+		"/D/workspace/c++/算法训练营作业/第03课丨数组、链表、跳表/283-移动零.cpp",
+		"/D/workspace/c++/算法训练营作业/第03课丨数组、链表、跳表/025-K个一组翻转链表.cpp",
+		"/D/workspace/c++/算法训练营作业/第03课丨数组、链表、跳表/024-两两交换链表中的节点.cpp",
+		"/D/workspace/c++/算法训练营作业/第03课丨数组、链表、跳表/021-合并两个有序链表.cpp",
+		"/D/workspace/c++/算法训练营作业/第03课丨数组、链表、跳表/015-三数之和.cpp",
+		"/D/workspace/c++/算法训练营作业/第03课丨数组、链表、跳表/011-乘水最多的容器.cpp",
+		"/D/workspace/c++/算法训练营作业/第03课丨数组、链表、跳表/088-合并两个有序数组.cpp",
+		"/D/workspace/c++/算法训练营作业/第03课丨数组、链表、跳表/141-环形链表.cpp",
+		"/D/workspace/c++/算法训练营作业/第03课丨数组、链表、跳表/142-环形链表-II.cpp",
+		"/D/workspace/c++/算法训练营作业/第03课丨数组、链表、跳表/066-加一.cpp",
+		"/D/workspace/c++/算法训练营作业/189-旋转数组.cpp"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 135.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"j",
+			"q",
+			"i",
+			"path",
+			"i",
+			"j",
+			"\n//",
+			"cur",
+			"color",
+			"i",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "第09课丨深度优先搜索和广度优先搜索/126-单词接龙II.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								764,
+								764
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"lsp_active": true,
+							"lsp_language":
+							{
+								"clangd": "cpp"
+							},
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"show_definitions": false,
+							"synced": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Debugger":
+	{
+		"height": 332.0
+	},
+	"output.ECC":
+	{
+		"height": 151.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.diagnostics":
+	{
+		"height": 248.0
+	},
+	"output.exec":
+	{
+		"height": 201.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 173.0
+	},
+	"pinned_build_system": "Packages/User/c++ cmd.sublime-build",
+	"project": "训练营.sublime-project",
+	"replace":
+	{
+		"height": 79.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rever",
+				"02-linked-list\\206-Reverse-Linked-List.cpp"
+			],
+			[
+				"deepstream.c",
+				"apps\\sample_apps\\deepstream-app\\deepstream_app.c"
+			],
+			[
+				"gst",
+				"includes\\gstnvdsmeta.h"
+			],
+			[
+				"de",
+				"commu\\detect_server.py"
+			],
+			[
+				"sig",
+				"commu\\signal_query_client.py"
+			],
+			[
+				"dem",
+				"src\\demo.c"
+			],
+			[
+				"gpu",
+				"Detector\\gpu_detector.py"
+			],
+			[
+				"det",
+				"detect_server.py"
+			],
+			[
+				"ioct",
+				"include\\pub\\ioCtrl.h"
+			],
+			[
+				"clo",
+				"init\\clock.c"
+			],
+			[
+				"io",
+				"include\\pub\\ioCtrl.h"
+			],
+			[
+				"init",
+				"robot\\App_dir\\SysInit.c"
+			],
+			[
+				"main",
+				"robot\\App_dir\\MainCtrlTask.c"
+			],
+			[
+				"tran",
+				"init\\trans.c"
+			],
+			[
+				"mana",
+				"menu\\manage.c"
+			],
+			[
+				"sysi",
+				"robot\\init_system_dir\\rbp_system_init.c"
+			],
+			[
+				"pub",
+				"include\\interface\\pub_if.h"
+			],
+			[
+				"ioc",
+				"include\\pub\\ioCtrl.h"
+			],
+			[
+				"mon",
+				"include\\pub\\mon.h"
+			],
+			[
+				"box",
+				"include\\interface\\rbp_teach_box_if.h"
+			],
+			[
+				"conf",
+				"include\\config\\config.h"
+			],
+			[
+				"type",
+				"include\\pub\\robot_type.h"
+			],
+			[
+				"system_init",
+				"robot\\init_system_dir\\rbp_system_init.c"
+			],
+			[
+				"teachbox",
+				"include\\interface\\rbp_teach_box_if.h"
+			],
+			[
+				"motion_mo",
+				"robot\\motion\\motion_module.h"
+			],
+			[
+				"rsp.h",
+				"include\\rsp\\rsp.h"
+			],
+			[
+				"pub_if",
+				"include\\interface\\pub_if.h"
+			],
+			[
+				"thread",
+				"include\\interface\\thread_wrapper.c"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 357.0,
+		"last_filter": "ModBus_Stack_Func_CallBack",
+		"selected_items":
+		[
+			[
+				"ModBus_Stack_Func_CallBack",
+				"ModBus_Stack_Func_CallBack"
+			],
+			[
+				"eMBRegIn",
+				"eMBRegInputCB"
+			],
+			[
+				"RC_MODBUS_Func",
+				"RC_MODBUS_FuncRegInput"
+			],
+			[
+				"HMI_RC",
+				"PT_HMI_RC_MSG_STR"
+			],
+			[
+				"RC_Modbus_Hmi_intf_p",
+				"RC_Modbus_Hmi_Intf_Proc"
+			],
+			[
+				"HMI_RC_MSG",
+				"PT_HMI_RC_MSG_STR"
+			],
+			[
+				"MSG_BUF",
+				"PT_MSG_BUF"
+			],
+			[
+				"MSG_QUE_STR",
+				"PT_MSG_QUE_STR"
+			]
+		],
+		"width": 374.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 301.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
