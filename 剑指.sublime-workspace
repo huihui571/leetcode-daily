@@ -1,0 +1,464 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inc",
+				"inc\tc++ include headers"
+			],
+			[
+				"unorma",
+				"unordered_map<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc>\t  \n<unordered_map>"
+			],
+			[
+				"pai",
+				"pair<typename _T1, typename _T2>\t  \n<utility>"
+			],
+			[
+				"r",
+				"row\t  int"
+			],
+			[
+				"in",
+				"at(size_type __n)\t  reference"
+			],
+			[
+				"re",
+				"replace(…)\t  [15 overloads]"
+			],
+			[
+				"queue",
+				"queue<typename _Tp, typename _Sequence>\t  \n<queue>"
+			],
+			[
+				"unor",
+				"unordered_set<class _Value, class _Hash, class _Pred, class _Alloc>\t  \n<unordered_set>"
+			],
+			[
+				"uno",
+				"unordered_set>\t  File"
+			],
+			[
+				"IN",
+				"INT32_MAX\t  \n<cstdint>"
+			],
+			[
+				"INTMA",
+				"INT32_MAX\t  \n<cstdint>"
+			],
+			[
+				"bo",
+				"board"
+			],
+			[
+				"str",
+				"str\t  string"
+			],
+			[
+				"co",
+				"count\t  int"
+			],
+			[
+				"Un",
+				"UnionFind\t  Class"
+			],
+			[
+				"ro",
+				"row"
+			],
+			[
+				"stru",
+				"struct\t  Keyword"
+			],
+			[
+				"string",
+				"string.h>\t  File"
+			],
+			[
+				"dp",
+				"dp_2\t  int"
+			],
+			[
+				"INT3",
+				"INT32_MIN\t  \n<cstdint>"
+			],
+			[
+				"INT",
+				"INT16_MIN\t  \n<cstdint>"
+			],
+			[
+				"k",
+				"k_max\t  int"
+			],
+			[
+				"INTMI",
+				"INT32_MIN\t  \n<cstdint>"
+			],
+			[
+				"em",
+				"empty() const\t  bool"
+			],
+			[
+				"i",
+				"i\t  int"
+			],
+			[
+				"en",
+				"end\t  int"
+			],
+			[
+				"pr",
+				"pre\t  int"
+			],
+			[
+				"n",
+				"nums\t  vector<int> &"
+			],
+			[
+				"max",
+				"max(…)\t  [4 overloads]\n<algorithm>"
+			],
+			[
+				"type",
+				"type_info\t  \n<typeinfo>"
+			],
+			[
+				"te",
+				"text2\t  string"
+			],
+			[
+				"obs",
+				"obstacleGrid\t  vector<vector<int> > &"
+			],
+			[
+				"st",
+				"start\t  int"
+			],
+			[
+				"pric",
+				"prices\t  vector<int> &"
+			],
+			[
+				"offs",
+				"offset_y\t  int [8]"
+			],
+			[
+				"off",
+				"offset_x\t  int [8]"
+			],
+			[
+				"count",
+				"count(vector<vector<char> > &board, int c, int l)\t  int"
+			],
+			[
+				"nu",
+				"num_row"
+			],
+			[
+				"vect",
+				"vector<typename _Tp, typename _Alloc>\t  \n<vector>"
+			],
+			[
+				"num_",
+				"num_row"
+			],
+			[
+				"un",
+				"unordered_set>\t  File"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"setma",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"packedi",
+				"Package Control: Disable Package"
+			],
+			[
+				"packen",
+				"Package Control: Enable Package"
+			],
+			[
+				"packli",
+				"Package Control: List Packages"
+			],
+			[
+				"packee",
+				"Package Control: Enable Package"
+			],
+			[
+				"packi",
+				"Package Control: Install Package"
+			],
+			[
+				"lspen",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"package control",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/weina/workspace/c++/剑指offer"
+	],
+	"file_history":
+	[
+		"/home/weina/workspace/c++/剑指offer/03-数组中重复的数字-II.cpp",
+		"/home/weina/workspace/c++/剑指offer/03-数组中重复的数字-I.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第17课丨布隆过滤器和LRU缓存/布隆过滤器.md",
+		"/home/weina/workspace/c++/Algorithm-camp/第16课丨位运算/338-比特位计数.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第16课丨位运算/191-位1的个数.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第16课丨位运算/190-颠倒二进制位.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第16课丨位运算/231-2的幂.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第15课丨红黑树和AVL树/红黑树.md",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/1091-二进制矩阵中的最短路径.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第03课丨数组、链表、跳表/024-两两交换链表中的节点.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第06课丨树、二叉树、二叉搜索树/590-N叉树的后序遍历.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/双向BFS/127-单词接龙.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/剪枝/022-括号生成.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/剪枝/051-N皇后.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/剪枝/037-解数独.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/A*算法.md",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/773-滑动谜题.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/6666-abcd.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/777-jhjhj.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/888-斤斤计较.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/666-看到几个.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/999-大公鸡.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/777-打开国际.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/555-打开国际.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/555-大公鸡.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/双向BFS/433-最小基因变化.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第09课丨深度优先搜索和广度优先搜索/127-单词接龙.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第09课丨深度优先搜索和广度优先搜索/433-最小基因变化.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第08课丨分治、回溯/051-N皇后.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/剪枝/036-有效的数独.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第03课丨数组、链表、跳表/001-两数之和.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/剪枝/070-爬楼梯.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第13课丨字典树和并查集/200-岛屿数量.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第13课丨字典树和并查集/130-被围绕的区域.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第13课丨字典树和并查集/547-朋友圈.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第13课丨字典树和并查集/212-单词搜索II.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/动态规划.md",
+		"/home/weina/workspace/c++/Algorithm-camp/README.md",
+		"/home/weina/workspace/c++/Algorithm-camp/第06课丨树、二叉树、二叉搜索树/144-二叉树的前序遍历.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第06课丨树、二叉树、二叉搜索树/429-N叉树的层序遍历.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第08课丨分治、回溯/046-全排列.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第03课丨数组、链表、跳表/141-环形链表.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第13课丨字典树和并查集/208-实现 Trie (前缀树).cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/198-打家劫舍.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/063-不同路径II.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/股票问题/714-买卖股票的最佳时机含手续费.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/股票问题/309-最佳买卖股票时机含冷冻期.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/股票问题/123-买卖股票的最佳时机III.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第04课丨栈、队列、优先队列、双端队列/单调栈总结.md",
+		"/home/weina/workspace/c++/Algorithm-camp/第06课丨树、二叉树、二叉搜索树/二叉树的遍历.md",
+		"/home/weina/workspace/c++/Algorithm-camp/第08课丨分治、回溯/回溯法.md",
+		"/home/weina/workspace/c++/Algorithm-camp/第09课丨深度优先搜索和广度优先搜索/BFS&DFS.md",
+		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/股票问题/121-买卖股票的最佳时机.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/股票问题/122-买卖股票的最佳时机II.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/121-买卖股票的最佳时机.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/213-打家劫舍II.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/152-乘积最大子数组.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/322-零钱兑换.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/053-最大子序和.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/120-三角形最小路径和.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/070-爬楼梯.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/1143-最长公共子序列.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/062-不同路径.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第11课丨二分查找/153-寻找旋转排序数组中的最小值.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第11课丨二分查找/074-搜索二维矩阵.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第11课丨二分查找/069-x的平方根.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第11课丨二分查找/033-搜索旋转排序数组.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第11课丨二分查找/367-有效的完全平方数.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第10课丨贪心算法/055-跳跃游戏.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第10课丨贪心算法/045-跳跃游戏II.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第10课丨贪心算法/874-模拟行走机器人.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第10课丨贪心算法/122-买卖股票的最佳时机II.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第10课丨贪心算法/455-分发饼干.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第10课丨贪心算法/860-柠檬水找零.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第10课丨贪心算法/322-零钱兑换.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第09课丨深度优先搜索和广度优先搜索/529-扫雷游戏.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第09课丨深度优先搜索和广度优先搜索/200-岛屿数量.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/训练营.sublime-project",
+		"/home/weina/.config/sublime-text-3/Packages/User/ConvertToUTF8.sublime-settings",
+		"/home/weina/workspace/c++/Algorithm-camp/compile_flags.txt",
+		"/home/weina/.config/sublime-text-3/Packages/User/CscopeSublime.sublime-settings",
+		"/home/weina/.config/sublime-text-3/Packages/CTags/CTags.sublime-settings",
+		"/home/weina/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/weina/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.diagnostics":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "剑指.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
