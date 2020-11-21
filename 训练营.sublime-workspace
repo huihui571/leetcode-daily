@@ -4,16 +4,96 @@
 		"selected_items":
 		[
 			[
+				"ha",
+				"hash_map\t  unordered_map<char, int>"
+			],
+			[
+				"sta",
+				"start\t  int"
+			],
+			[
+				"merge",
+				"merge(vector<int> &nums, int start, int mid, int end)\t  void"
+			],
+			[
+				"compar",
+				"compare(int num1, int num2)\t  bool"
+			],
+			[
+				"num",
+				"num1\t  int"
+			],
+			[
+				"has",
+				"hash_map\t  unordered_map<int, int>"
+			],
+			[
+				"a",
+				"arr2\t  vector<int> &"
+			],
+			[
+				"beg",
+				"begin()\t  iterator"
+			],
+			[
+				"unor",
+				"unordered_map<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc>\t  \n<unordered_map>"
+			],
+			[
+				"inc",
+				"inc\tc++ include headers"
+			],
+			[
+				"unorma",
+				"unordered_map<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc>\t  \n<unordered_map>"
+			],
+			[
+				"pai",
+				"pair<typename _T1, typename _T2>\t  \n<utility>"
+			],
+			[
+				"r",
+				"row\t  int"
+			],
+			[
+				"in",
+				"at(size_type __n)\t  reference"
+			],
+			[
+				"re",
+				"replace(…)\t  [15 overloads]"
+			],
+			[
+				"queue",
+				"queue<typename _Tp, typename _Sequence>\t  \n<queue>"
+			],
+			[
+				"uno",
+				"unordered_set>\t  File"
+			],
+			[
+				"IN",
+				"INT32_MAX\t  \n<cstdint>"
+			],
+			[
+				"INTMA",
+				"INT32_MAX\t  \n<cstdint>"
+			],
+			[
+				"bo",
+				"board"
+			],
+			[
+				"str",
+				"str\t  string"
+			],
+			[
 				"co",
 				"count\t  int"
 			],
 			[
 				"Un",
 				"UnionFind\t  Class"
-			],
-			[
-				"inc",
-				"inc\tc++ include headers"
 			],
 			[
 				"ro",
@@ -56,10 +136,6 @@
 				"i\t  int"
 			],
 			[
-				"IN",
-				"INT32_MIN\t  \n<cstdint>"
-			],
-			[
 				"en",
 				"end\t  int"
 			],
@@ -88,16 +164,8 @@
 				"obstacleGrid\t  vector<vector<int> > &"
 			],
 			[
-				"in",
-				"inc\t#include <…>"
-			],
-			[
 				"st",
 				"start\t  int"
-			],
-			[
-				"unor",
-				"unordered_set<class _Value, class _Hash, class _Pred, class _Alloc>\t  \n<unordered_set>"
 			],
 			[
 				"pric",
@@ -135,15 +203,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "第13课丨字典树和并查集/130-被围绕的区域.cpp",
-			"settings":
-			{
-				"buffer_size": 640,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -214,22 +273,74 @@
 	"expanded_folders":
 	[
 		"/home/weina/workspace/c++/Algorithm-camp",
-		"/home/weina/workspace/c++/Algorithm-camp/第13课丨字典树和并查集"
+		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法"
 	],
 	"file_history":
 	[
-		"/home/weina/workspace/c++/Algorithm-camp/第13课丨字典树和并查集/547-朋友圈.cpp",
-		"/home/weina/workspace/c++/Algorithm-camp/第13课丨字典树和并查集/200-岛屿数量.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法/基础操作/387-字符串中的第一个唯一字符.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法/基础操作/771-宝石与石头.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法/基础操作/058-最后一个单词的长度.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法/058-最后一个单词的长度.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法/709-转换成小写字母.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第19课丨高级动态规划/818-赛车.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第19课丨高级动态规划/115-不同的子序列.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第19课丨高级动态规划/085-最大矩形.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第19课丨高级动态规划/032-最长有效括号.cpp",
 		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/动态规划.md",
-		"/home/weina/workspace/c++/Algorithm-camp/README.md",
+		"/home/weina/workspace/c++/Algorithm-camp/第19课丨高级动态规划/091-解码方法.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第19课丨高级动态规划/300-最长上升子序列.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第19课丨高级动态规划/072-编辑距离.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/063-不同路径II.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/062-不同路径.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第19课丨高级动态规划/746-使用最小花费爬楼梯.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第18课丨排序算法/493-翻转对.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第18课丨排序算法/高级排序-O(nlogn).md",
+		"/home/weina/workspace/c++/Algorithm-camp/第18课丨排序算法/056-合并区间.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第18课丨排序算法/1122-数组的相对排序.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第18课丨排序算法/初级排序-O(n^2).md",
+		"/home/weina/workspace/c++/Algorithm-camp/第18课丨排序算法/242-有效的字母异位词.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第17课丨布隆过滤器和LRU缓存/146-LRU缓存机制.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第17课丨布隆过滤器和LRU缓存/布隆过滤器.md",
+		"/home/weina/workspace/c++/Algorithm-camp/第16课丨位运算/338-比特位计数.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第16课丨位运算/191-位1的个数.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第16课丨位运算/190-颠倒二进制位.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第16课丨位运算/231-2的幂.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第15课丨红黑树和AVL树/红黑树.md",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/1091-二进制矩阵中的最短路径.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第03课丨数组、链表、跳表/024-两两交换链表中的节点.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第06课丨树、二叉树、二叉搜索树/590-N叉树的后序遍历.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/双向BFS/127-单词接龙.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/剪枝/022-括号生成.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/剪枝/051-N皇后.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/剪枝/037-解数独.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/A*算法.md",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/773-滑动谜题.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/6666-abcd.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/777-jhjhj.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/888-斤斤计较.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/666-看到几个.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/999-大公鸡.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/777-打开国际.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/555-打开国际.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/启发式搜索/555-大公鸡.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/双向BFS/433-最小基因变化.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第09课丨深度优先搜索和广度优先搜索/127-单词接龙.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第09课丨深度优先搜索和广度优先搜索/433-最小基因变化.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第08课丨分治、回溯/051-N皇后.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/剪枝/036-有效的数独.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第03课丨数组、链表、跳表/001-两数之和.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第14课丨高级搜索/剪枝/070-爬楼梯.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第13课丨字典树和并查集/200-岛屿数量.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第13课丨字典树和并查集/130-被围绕的区域.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第13课丨字典树和并查集/547-朋友圈.cpp",
 		"/home/weina/workspace/c++/Algorithm-camp/第13课丨字典树和并查集/212-单词搜索II.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/README.md",
 		"/home/weina/workspace/c++/Algorithm-camp/第06课丨树、二叉树、二叉搜索树/144-二叉树的前序遍历.cpp",
 		"/home/weina/workspace/c++/Algorithm-camp/第06课丨树、二叉树、二叉搜索树/429-N叉树的层序遍历.cpp",
 		"/home/weina/workspace/c++/Algorithm-camp/第08课丨分治、回溯/046-全排列.cpp",
 		"/home/weina/workspace/c++/Algorithm-camp/第03课丨数组、链表、跳表/141-环形链表.cpp",
 		"/home/weina/workspace/c++/Algorithm-camp/第13课丨字典树和并查集/208-实现 Trie (前缀树).cpp",
 		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/198-打家劫舍.cpp",
-		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/063-不同路径II.cpp",
 		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/股票问题/714-买卖股票的最佳时机含手续费.cpp",
 		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/股票问题/309-最佳买卖股票时机含冷冻期.cpp",
 		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/股票问题/123-买卖股票的最佳时机III.cpp",
@@ -247,7 +358,6 @@
 		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/120-三角形最小路径和.cpp",
 		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/070-爬楼梯.cpp",
 		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/1143-最长公共子序列.cpp",
-		"/home/weina/workspace/c++/Algorithm-camp/第12课丨动态规划/062-不同路径.cpp",
 		"/home/weina/workspace/c++/Algorithm-camp/第11课丨二分查找/153-寻找旋转排序数组中的最小值.cpp",
 		"/home/weina/workspace/c++/Algorithm-camp/第11课丨二分查找/074-搜索二维矩阵.cpp",
 		"/home/weina/workspace/c++/Algorithm-camp/第11课丨二分查找/069-x的平方根.cpp",
@@ -286,6 +396,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"i",
+			"right",
+			"left",
+			"i",
+			"dfs",
+			"k",
+			"j",
+			"i",
+			"is_connected",
 			");\n",
 			"i",
 			"-prices[0];",
@@ -314,55 +433,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "第13课丨字典树和并查集/130-被围绕的区域.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 640,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								630,
-								630
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".>:",
-									"selector": "source.c++"
-								}
-							],
-							"lsp_active": true,
-							"lsp_language":
-							{
-								"clangd": "cpp"
-							},
-							"open_with_edit": true,
-							"show_definitions": false,
-							"syntax": "Packages/C++/C++.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
