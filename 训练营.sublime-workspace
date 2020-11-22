@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"rev",
+				"reverse(_BIter, _BIter)\t  void\n<algorithm>"
+			],
+			[
+				"lon",
+				"longest_common_prefix(vector<string> &strs, int start, int end)\t  string"
+			],
+			[
+				"tw",
+				"two_common_prefix(const string &str1, const string &str2)\t  string"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"te",
+				"text1\t  string"
+			],
+			[
 				"ha",
 				"hash_map\t  unordered_map<char, int>"
 			],
@@ -156,10 +176,6 @@
 				"type_info\t  \n<typeinfo>"
 			],
 			[
-				"te",
-				"text2\t  string"
-			],
-			[
 				"obs",
 				"obstacleGrid\t  vector<vector<int> > &"
 			],
@@ -277,6 +293,21 @@
 	],
 	"file_history":
 	[
+		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法/异位词问题/242-有效的字母异位词.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法/KMP算法.md",
+		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法/基础操作/反转系列/344-反转字符串.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法/基础操作/反转系列/917-仅仅反转字母.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法/基础操作/反转系列/557-反转字符串中的单词III.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法/基础操作/反转系列/151-翻转字符串里的单词.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法/基础操作/反转系列/541-反转字符串II.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法/基础操作/541-反转字符串II.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法/基础操作/344-反转字符串.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法/基础操作/014-最长公共前缀.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第08课丨分治、回溯/169-多数元素.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第08课丨分治、回溯/078-子集.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第08课丨分治、回溯/050-Pow(x, n).cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第19课丨高级动态规划/子串、子序列问题/005-最长回文子串.cpp",
+		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法/最长子串、子序列问题/1143-最长公共子序列.cpp",
 		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法/基础操作/387-字符串中的第一个唯一字符.cpp",
 		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法/基础操作/771-宝石与石头.cpp",
 		"/home/weina/workspace/c++/Algorithm-camp/第20课丨字符串算法/基础操作/058-最后一个单词的长度.cpp",
@@ -396,6 +427,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"s",
 			"i",
 			"right",
 			"left",
