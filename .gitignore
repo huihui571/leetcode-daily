@@ -1,0 +1,5 @@
+.git/
+.vs/
+./vscode
+./idea/
+*.sublime-worksapce
