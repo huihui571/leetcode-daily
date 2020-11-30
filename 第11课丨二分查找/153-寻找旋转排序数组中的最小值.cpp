@@ -21,9 +21,12 @@
 
 using namespace std;
 
+#if 0
 /**
  * 二分法
- * 
+ * 比较左值就行不通，如果求最大值可以比较左值
+ * 不要考虑哪一部分有序，画出图来，分几种情况，跟左值比较那么最大值的位置可以归纳为两种情况，每次
+ * 缩小一半查找范围
  */
 class Solution
 {
@@ -37,28 +40,22 @@ public:
         {
             int mid = left + (right - left) / 2;
 
-            if (nums[mid] < nums[left])     //转折点一定在左半部分
+            if (nums[mid] < nums[left])     //最大值一定在左半部分
             {
                 right = mid - 1;
             }
-            else if (nums[mid] >= nums[left])
+            else if (nums[mid] >= nums[left])   //最大值一定在右半部分
             {
-                if (nums[mid] > nums[mid + 1])    
-                {
-                    return nums[mid + 1];       //找到转折点
-                }
-                else     //最小值在左边
-                {
-                    left = mid + 1;
-                }
+                left = mid;
             }
         }
 
         return nums[left];
     }
 };
+#endif
 
-#if 0
+#if 1
 /**
  * 二分法
  * 比较中值与右值。在while循环内，nums[mid]要么大于要么小于nums[right]，不会等于
