@@ -1,10 +1,10 @@
 /*<FH+>***************************************************************
 *   Editor      : Visual Studio 2019
-*   File name   : 04-¶şÎ¬Êı×éÖĞµÄ²éÕÒ.cpp
+*   File name   : 04-äºŒç»´æ•°ç»„ä¸­çš„æŸ¥æ‰¾.cpp
 *   Author      : huihui571
 *   Created date: 2020-11-21
-*   Description : ÔÚÒ»¸ö¶şÎ¬Êı×éÖĞ£¬Ã¿Ò»ĞĞ¶¼°´ÕÕ´Ó×óÖÁÓÒµİÔöµÄË³ĞòÅÅĞò£¬Ã¿Ò»ÁĞ¶¼°´ÕÕ´ÓÉÏµ½ÏÂµİÔöµÄË³ĞòÅÅĞò¡£
-* ÇëÍê³ÉÒ»¸öº¯Êı£¬ÊäÈëÕâÑùµÄÒ»¸ö¶şÎ¬Êı×éºÍÒ»¸öÕûÊı£¬ÅĞ¶ÏÊı×éÖĞÊÇ·ñº¬ÓĞ¸ÃÕûÊı¡£
+*   Description : åœ¨ä¸€ä¸ªäºŒç»´æ•°ç»„ä¸­ï¼Œæ¯ä¸€è¡Œéƒ½æŒ‰ç…§ä»å·¦è‡³å³é€’å¢çš„é¡ºåºæ’åºï¼Œæ¯ä¸€åˆ—éƒ½æŒ‰ç…§ä»ä¸Šåˆ°ä¸‹é€’å¢çš„é¡ºåºæ’åºã€‚
+* è¯·å®Œæˆä¸€ä¸ªå‡½æ•°ï¼Œè¾“å…¥è¿™æ ·çš„ä¸€ä¸ªäºŒç»´æ•°ç»„å’Œä¸€ä¸ªæ•´æ•°ï¼Œåˆ¤æ–­æ•°ç»„ä¸­æ˜¯å¦å«æœ‰è¯¥æ•´æ•°ã€‚
 *  
 *<FH->***************************************************************/
 #include <stdio.h>
@@ -21,19 +21,24 @@
 using namespace std;
 
 /**
-* Ñ¡ÔñÓÒÉÏ½ÇµÄÊı¾İ½øĞĞ±È½Ï£¬ÒòÎªÓÒÉÏ½ÇÊÇÒ»ÁĞÖĞ×îĞ¡µÄ£¬Í¬Ê±ÓÖÊÇÒ»ĞĞÖĞ×î´óµÄ¡£(Ò²¿ÉÒÔÑ¡Ôñ×óÏÂ½ÇµÄÊı¾İ)
+* é€‰æ‹©å³ä¸Šè§’çš„æ•°æ®è¿›è¡Œæ¯”è¾ƒï¼Œå› ä¸ºå³ä¸Šè§’æ˜¯ä¸€åˆ—ä¸­æœ€å°çš„ï¼ŒåŒæ—¶åˆæ˜¯ä¸€è¡Œä¸­æœ€å¤§çš„ã€‚(ä¹Ÿå¯ä»¥é€‰æ‹©å·¦ä¸‹è§’çš„æ•°æ®)
 */
 class Solution {
 public:
-    bool findInTable(vector<vector<int>>& nums, int target) {
-        int rows = nums.size(), cols = nums[0].size();
-        int i = 0, j = cols - 1;
+    bool findNumberIn2DArray(vector<vector<int>>& matrix, int target) {
+        int rows = matrix.size();
+        if (rows == 0) 
+            return false;
+        int cols = matrix[0].size();
+        if (cols == 0) 
+            return false;
 
-        while (i < rows && col >= 0) {
-            if (nums[i][j] == target) {
+        int i = 0, j = cols - 1;
+        while (i < rows && j >= 0) {
+            if (matrix[i][j] == target) {
                 return true;
             }
-            else if (nums[i][j] > target) {
+            else if (matrix[i][j] > target) {
                 j--;
             }
             else {
