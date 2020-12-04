@@ -1,5 +1,5 @@
 .git/
 .vs/
-./vscode
-./idea/
+.vscode/
+.idea/
 *.sublime-workspace
