@@ -22,6 +22,59 @@
 
 using namespace std;
 
+#if 1
+/**
+ * 模板匹配法
+ * 假设字符串为A.BeC或A.BEC，也就是整数部分为A，小数部分为B，指数部分为C，按顺序扫描判断是否包含这三部分。
+ */
+class Solution {
+private:
+    int index = 0;      //全局索引
+
+    /**扫描是否包含无符号数**/
+    bool scanUnsignedInteger(string str) {
+        int start = index;
+        while (str[index] >= '0' && str[index] <= '9') {
+            index++;
+        }
+        return index > start;
+    }
+
+    /**扫描是否包含有符号数**/
+    bool scanInteger(string str) {
+        if (str[index] == '+' || str[index] == '-') {
+            index++;
+        }
+        return scanUnsignedInteger(str);
+    }
+
+public:
+    bool isNumber(string s) {
+        if (s.empty())
+            return false;
+
+        s = s + '|';    //添加一个结束标记，否则每次scan都需要判断下标是否大于length
+
+        while (s[index] == ' ') index++;    //跳过开始的空格
+
+        bool numeric = scanInteger(s);      //是否包含整数部分
+        if (s[index] == '.') {
+            index++;                    //跳过小数点
+            numeric = scanUnsignedInteger(s) || numeric;    //小数点两边有一边有数字就行，所以用||
+        }
+        if (s[index] == 'e' || s[index] == 'E') {
+            index++;
+            numeric = numeric && scanInteger(s);            //e的两边都要有数字
+        }
+
+        while (s[index] == ' ') index++;    //跳过尾部的空格
+
+        return numeric && s[index] == '|';
+    }
+};
+#endif
+
+#if 0
 /**
  * 确定有限状态自动机
  * 用“当前处理到字符串的哪个部分”当作状态的表述
@@ -154,3 +207,4 @@ public:
         STATE_POINT;
     }
 };
+#endif
