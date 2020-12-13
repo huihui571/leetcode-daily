@@ -1,0 +1,9 @@
+-ID:\Programs\MinGW\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++
+-ID:\Programs\MinGW\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++\x86_64-w64-mingw32
+-ID:\Programs\MinGW\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++\backward
+-ID:\Programs\MinGW\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include
+-ID:\Programs\MinGW\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include-fixed
+-ID:\Programs\MinGW\mingw64\x86_64-w64-mingw32\include
+-ID:\workspace\c++\jianzhi-offer
+-target
+x86_64-pc-windows-gnu
