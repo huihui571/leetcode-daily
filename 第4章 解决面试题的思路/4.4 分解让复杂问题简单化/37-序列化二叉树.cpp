@@ -45,11 +45,11 @@ public:
 
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
-        stringstream is(data);
+        istringstream is(data);
         return dfs(is);
     }
 
-    TreeNode* dfs(stringstream &is) {
+    TreeNode* dfs(istringstream &is) {
         string s;
         is >> s;
 
