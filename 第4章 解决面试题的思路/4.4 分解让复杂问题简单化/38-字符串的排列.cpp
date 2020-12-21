@@ -20,6 +20,7 @@
 
 using namespace std;
 
+#if 0
 /**
  * 回溯法
  * 有重复数字，先排序让重复数字相邻
@@ -56,3 +57,49 @@ public:
         }
     }
 };
+#endif
+
+#if 1
+/**
+ * 控制位置选择字符的思路，对于每一个位置，遍历当前的选择列表，这样不需要排序并且根据相邻的来判重
+ * 用一个set来保证内循环的选择列表不出现重复字符就行。
+ */
+class Solution {
+public:
+    vector<string> permutation(string s) {
+        vector<string> res;
+        string path;
+//        sort(s.begin(), s.end());
+        backtrack(res, s, 0);
+
+        return res;
+    }
+
+    //固定第i个字符
+    //不需要path，因为是直接在s上进行操作，s就是path
+    void backtrack(vector<string>& res, string& s, int i) {
+        if (i == s.length() - 1) {
+            res.push_back(s);
+            return;
+        }
+
+        //选择列表是从第i个开始还没用过的字符
+        unordered_set<char> set;
+        for (int j = i; j < s.length(); ++j) {
+            if (set.count(s[j]))
+                continue;
+            set.insert(s[j]);
+            swap(s, i, j);      //将字符j固定到位置i上
+            backtrack(res, s, i + 1);
+            swap(s, i, j);
+//            set.erase(s[j]); 这是内循环的set，只对当前for的选择列表去重，不是全局的，所以回溯时不需要撤销。用全局的应该也行。
+        }
+    }
+
+    void swap(string& s, int i, int j) {
+        char t = s[i];
+        s[i] = s[j];
+        s[j] = t;
+    }
+};
+#endif
