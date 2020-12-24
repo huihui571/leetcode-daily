@@ -20,6 +20,7 @@
 
 using namespace std;
 
+#if 0
 /**
  * 1. 排序
  * 2. 哈希表
@@ -63,3 +64,55 @@ public:
         return res;
     }
 };
+#endif
+
+#if 1
+/**
+ * 快速选择算法。出现次数超过一半，那它一定是排序后下标为len/2的数。即寻找数组中第k大的数，k=len/2
+ */
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+        int k = nums.size() / 2;
+        int res = 0;
+        int left = 0;
+        int right = nums.size() - 1;
+        int index = partition(nums, left, right);
+
+        while (index != k) {
+            if (index > k) {
+                right = index - 1;
+                index = partition(nums, left, right);
+            }
+            else {
+                left = index + 1;
+                index = partition(nums, left, right);
+            }
+        }
+        res = nums[k];
+
+        return res;
+    }
+
+    int partition(vector<int>& arr, int left, int right) {
+        int piovt = arr[left];
+        int mask = left;
+
+        for (int i = left + 1; i <= right; ++i) {
+            if (arr[i] < piovt) {
+                mask++;
+                swap(arr[i], arr[mask]);
+            }
+        }
+        swap(arr[left], arr[mask]);
+
+        return mask;
+    }
+
+    void swap(int& a, int& b) {
+        int t = a;
+        a = b;
+        b = t;
+    }
+};
+#endif
