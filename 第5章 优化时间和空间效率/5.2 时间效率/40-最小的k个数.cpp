@@ -20,6 +20,7 @@
 
 using namespace std;
 
+#if 0
 /**
  * 快速选择
  * 退化的快速排序，partition函数来找第k大的数，那么根据快排partition的定义，这个数左边的k-1个数都是小于它的，于是我们就
@@ -101,3 +102,42 @@ public:
         b = t;
     }
 };
+#endif
+
+#if 1
+/**
+ * 思路：用一个容器来存储前k个最小值，并实时更新它。那么需要维护这个k个数中的最大值，可以用一个大根堆来实现。
+ * 首先将前k个数插入堆中，然后从第k+1个数x开始，如果x小于堆顶，那么把堆顶弹出，x入堆；如果x大于堆顶，那么跳过。
+ * 时间复杂度O(nlogk)，并且当n >> k的时候，这个方法不用将n个数一次性全部载入内存，适合海量数据输入的情况。
+ * c++ STL中的 priority_queue就是堆
+ */
+class Solution {
+public:
+    vector<int> getLeastNumbers(vector<int>& arr, int k) {
+        vector<int> res;
+        if (k == 0)
+            return res;
+
+        //初始化前k个值
+        priority_queue<int> Q;
+        for (int i = 0; i < k; ++i) {
+            Q.push(arr[i]);
+        }
+
+        for (int i = k; i < arr.size(); ++i) {
+            if (arr[i] < Q.top()) {     //更新堆
+                Q.pop();
+                Q.push(arr[i]);
+            }
+        }
+
+        //取出答案
+        for (int i = 0; i < k; ++i) {
+            res.push_back(Q.top());
+            Q.pop();
+        }
+
+        return res;
+    }
+};
+#endif
