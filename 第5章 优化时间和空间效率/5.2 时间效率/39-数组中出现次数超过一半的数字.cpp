@@ -17,6 +17,7 @@
 #include <unordered_map>
 #include <unordered_set>
 #include <algorithm>
+#include <time.h>
 
 using namespace std;
 
@@ -69,50 +70,69 @@ public:
 #if 1
 /**
  * 快速选择算法。出现次数超过一半，那它一定是排序后下标为len/2的数。即寻找数组中第k大的数，k=len/2
+ * pivot随机选择，对于一些极端用例，可以避免超时。
  */
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
-        int k = nums.size() / 2;
-        int res = 0;
-        int left = 0;
-        int right = nums.size() - 1;
-        int index = partition(nums, left, right);
-
-        while (index != k) {
-            if (index > k) {
-                right = index - 1;
-                index = partition(nums, left, right);
-            }
-            else {
-                left = index + 1;
-                index = partition(nums, left, right);
-            }
+        if (nums.size() == 1) {
+            return nums[0];
         }
-        res = nums[k];
+        int start = 0;
+        int end = nums.size() - 1;
+        int target = nums.size() / 2;
+        int mid = partition(nums, start, end);
 
-        return res;
+        while (mid != target) {
+            // 在右边继续查找
+            if (mid < target) {
+                start = mid + 1;
+            } else {
+                // 在左边继续查找
+                end = mid - 1;
+            }
+            mid = partition(nums, start, end);
+        }
+        return nums[mid];
     }
 
     int partition(vector<int>& arr, int left, int right) {
-        int piovt = arr[left];
-        int mask = left;
+        //随机选择pivot，再把它和第一个元素交换，剩下的操作不变
+        srand((int)time(0));
+        int index = left + rand() % (right - left + 1);
+        swap(arr[left], arr[index]);
+        int pivot = arr[left];
+        int mask = left;          //哨兵，记录小于pivot元素的范围
 
         for (int i = left + 1; i <= right; ++i) {
-            if (arr[i] < piovt) {
-                mask++;
-                swap(arr[i], arr[mask]);
+            if (arr[i] < pivot) {
+                mask++;                   //腾位置
+                swap(arr[i], arr[mask]);  //进来
             }
         }
         swap(arr[left], arr[mask]);
 
         return mask;
     }
+    // int partition(vector<int>& arr, int left, int right) {
+    //     srand((int)time(0));
+    //     int index = left + rand() % (right - left + 1);
+    //     swap(arr[left], arr[index]);
+    //     int pivot = arr[left];
+    //     int i = left;
+    //     int j = right;
 
-    void swap(int& a, int& b) {
-        int t = a;
-        a = b;
-        b = t;
-    }
+    //     while (i < j) {
+    //         while (i < j && arr[j] > pivot) j--;
+    //         while (i < j && arr[i] <= pivot) i++;
+    //         if (i < j)
+    //             swap(arr[i], arr[j]);
+    //     }
+
+    //     //NOTE:关于上面循环为什么要先对j操作。最后退出大循环的时候，一定有i==j，而这个位置应该是pivot所在的位置。
+    //     //又因为pivot选的左边第一个元素，所以这个位置需要是在小于等于pivot的一侧。因此在i和j相邻的时候，一定是需要j--来使得i和j相遇。
+    //     swap(arr[left], arr[i]);
+    //     return i;
+    // }
 };
 #endif
