@@ -1,6 +1,6 @@
 /*<FH+>***************************************************************
 *   Editor      : CLion
-*   File name   : 43-II-二进制中0和1的个数.cpp.c
+*   File name   : 43-II-二进制中0和1的个数.cpp
 *   Author      : huihui571
 *   Created date: 2020-12-28
 *   Description : 将数字转化为二进制，统计二进制数中0的个数不小于1的数字的个数。
