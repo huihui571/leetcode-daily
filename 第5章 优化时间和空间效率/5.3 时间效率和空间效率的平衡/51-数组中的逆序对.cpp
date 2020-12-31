@@ -28,16 +28,17 @@ public:
     int reversePairs(vector<int>& nums) {
         if (nums.size() < 2)
             return 0;
-        return mergeSort(nums, 0, nums.size() - 1);
+        vector<int> helper(nums.size());
+        return mergeSort(nums, 0, nums.size() - 1, helper);
     }
 
-    int mergeSort(vector<int>& nums, int start, int end) {
+    int mergeSort(vector<int>& nums, int start, int end, vector<int>& helper) {
         if (end <= start)
             return 0;
 
         int mid = (start + end) >> 1;
         //左右内部的逆序对数量
-        int count = mergeSort(nums, start, mid) + mergeSort(nums, mid + 1, end);
+        int count = mergeSort(nums, start, mid, helper) + mergeSort(nums, mid + 1, end, helper);
 
         //加速，这种情况下不存在左右之间的逆序对了
         if (nums[mid] <= nums[mid + 1])
@@ -52,24 +53,24 @@ public:
             count += j - (mid + 1);
         }
 
-        merge(nums, start, mid, end);
+        merge(nums, start, mid, end, helper);
         return count;
     }
 
     //合并两个有序数组
-    void merge(vector<int>& nums, int start, int mid, int end) {
-        vector<int> tmp(end - start + 1);    //辅助数组 Note:如果指针从后往前比较，是可以在原数组上操作，达到O(1)的空间复杂度合并的。
+    void merge(vector<int>& nums, int start, int mid, int end, vector<int>& helper) {
+//        vector<int> helper(end - start + 1);    //辅助数组用全局变量而不是每次都创建可以加速 Note:如果指针从后往前比较，(如果原数组后面有空余空间的话)是可以在原数组上操作，达到O(1)的空间复杂度合并的。
 
-        int i = start, j = mid + 1, k = 0;
+        int i = start, j = mid + 1, k = start;
         while (i <= mid && j <= end) {
-            tmp[k++] = nums[i] < nums[j] ? nums[i++] :nums[j++];
+            helper[k++] = nums[i] < nums[j] ? nums[i++] : nums[j++];
         }
-        while (i <= mid) tmp[k++] = nums[i++];
-        while (j <= end) tmp[k++] = nums[j++];
+        while (i <= mid) helper[k++] = nums[i++];
+        while (j <= end) helper[k++] = nums[j++];
 
-        copy(tmp.begin(), tmp.end(), nums.begin() + start);
-//        for (int p = 0; p < tmp.size(); ++p) {
-//            nums[start + p] = tmp[p];
-//        }
+//        copy(helper.begin(), helper.end(), nums.begin() + start);
+        for (int p = start; p <= end; ++p) {
+            nums[p] = helper[p];
+        }
     }
 };
