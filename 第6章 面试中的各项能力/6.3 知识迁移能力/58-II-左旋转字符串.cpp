@@ -40,7 +40,7 @@ public:
 };
 #endif
 
-#if 1
+#if 0
 /**
  * 开一个辅助数组，直接按索引复制元素。
  * Note:[]访问比push_back()要快。是因为下标访问需提前分配好数组所需的空间，而使用push_back和insert会造成不断的重新分配空间。
@@ -61,6 +61,35 @@ public:
             res[idx++] = s[i];
         }
         return res;
+    }
+};
+#endif
+
+#if 1
+/**
+ * 三次翻转，可以做到O(1)空间复杂度。
+ */
+class Solution {
+public:
+    string reverseLeftWords(string s, int n) {
+        int len = s.length();
+
+        reverseString(s, 0, len - 1);
+        reverseString(s, 0, len - 1 -n);
+        reverseString(s, len - n, len - 1);
+
+        return s;
+    }
+
+    void reverseString(string& s, int start, int end) {
+        int i = start, j = end;
+        while (i < j) {
+            char tmp = s[i];
+            s[i] = s[j];
+            s[j] = tmp;
+            ++i;
+            --j;
+        }
     }
 };
 #endif
