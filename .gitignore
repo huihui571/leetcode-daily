@@ -1,0 +1,6 @@
+.git/
+.vs/
+.vscode/
+.idea/
+*.sublime-workspace
+cmake-build-debug
