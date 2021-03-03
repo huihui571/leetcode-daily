@@ -3,4 +3,5 @@
 .vscode/
 .idea/
 *.sublime-workspace
+CMakeLists.txt
 cmake-build-debug
