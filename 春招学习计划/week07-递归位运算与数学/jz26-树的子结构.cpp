@@ -7,7 +7,7 @@
 *   B是A的子结构， 即 A中有出现和B相同的结构和节点值。
 *
 *<FH->************************************************************************/
-<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 //Definition for a binary tree node.
