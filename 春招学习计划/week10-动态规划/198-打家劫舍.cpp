@@ -11,8 +11,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+#if 0
 /**
- * 动态规划状态压缩
+ * 一维状态数组
  * 如果不偷当前的话，dp[i] = dp[i-1]
  * 如果偷当前的话，那一定不偷上一个，状态只能从i-2转移过来，dp[i] = dp[i-2] + nums[i]
  */
@@ -30,4 +31,31 @@ public:
         return pre;
     }
 };
+#endif
 
+#if 1
+/**
+ * 二维状态数组 + 状态压缩
+ * 通过 %2的方式控制数组下标，依然保留dp数组的形式
+ */
+class Solution {
+public:
+    int rob(vector<int>& nums) {
+        int n = nums.size();
+        if (n == 0)
+            return 0;
+
+        vector<vector<int>> dp(2, vector<int>(2));
+        dp[0][0] = 0;   //不偷
+        dp[0][1] = nums[0]; //偷
+
+        for (int i = 1; i < n; i++)
+        {
+            dp[i % 2][0] = max(dp[(i - 1) % 2][0], dp[(i - 1) % 2][1]);
+            dp[i % 2][1] = dp[(i - 1) % 2][0] + nums[i];           
+        }
+
+        return max(dp[(n - 1) % 2][0], dp[(n - 1) % 2][1]);
+    }
+};
+#endif
