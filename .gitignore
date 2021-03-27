@@ -5,3 +5,4 @@
 *.sublime-workspace
 CMakeLists.txt
 cmake-build-debug
+compile_flags.txt
