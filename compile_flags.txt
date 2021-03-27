@@ -1,0 +1,8 @@
+-ID:\MinGW\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++
+-ID:\MinGW\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++\x86_64-w64-mingw32
+-ID:\MinGW\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++\backward
+-ID:\MinGW\lib\gcc\x86_64-w64-mingw32\8.1.0\include
+-ID:\MinGW\lib\gcc\x86_64-w64-mingw32\8.1.0\include-fixed
+-ID:\MinGW\x86_64-w64-mingw32\include
+-target
+x86_64-pc-windows-gnu
