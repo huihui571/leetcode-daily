@@ -12,6 +12,35 @@
 using namespace std;
 
 #if 0
+// BFS求source到target的最短路径
+int BFS(unordered_map<int, vector<int>>& G, int n, int source, int target)
+{
+    queue<int> q;
+    vector<int> dist(n + 1, 0);
+    vector<bool> visited(n + 1, false);
+
+    q.push(source);
+    visited[source] = true;
+    dist[source] = 0;
+
+    while (!q.empty()) {
+        int u = q.front();
+        q.pop();
+        cout << "cur: " << u << endl;
+        for (auto v : G[u]) {
+            if (!visited[v]) {
+                dist[v] = dist[u] + 1;
+                q.push(v);
+                visited[v] = true;  
+            }
+        }
+    }
+
+    return dist[target];
+}
+#endif
+
+#if 0
 /**
  * 朴素Dijkstra
  */
@@ -20,7 +49,7 @@ public:
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
         const int INF = INT_MAX / 2;    //使用INT_MAX/2避免后面有INT_MAX+INT_MAX导致int溢出
 
-        //定义二维数组来存储图，即邻接表
+        //定义二维数组来存储图，即邻接矩阵
         vector<vector<int>> g(n + 1, vector<int>(n + 1, INF));
         for (auto t : times) {
             g[t[0]][t[1]] = t[2];   //起点-终点-权重
@@ -64,10 +93,12 @@ public:
 };
 #endif
 
-#if 1
+#if 0
 /**
  * 优先队列优化Dijkstra
- * 选队列中最小的，即离源点最近的点出队，然后松弛该点的所有邻接节点。
+ * while(优先队列非空)
+ * -->队头出队，松弛它的边
+ * -->松弛了的<新距离,点>入队
  */
 class Solution {
 public:
@@ -108,6 +139,55 @@ public:
             }
         }
         
+        int res = *max_element(dist.begin() + 1, dist.end());
+        return res == INF ? -1 : res;
+    }
+};
+#endif
+
+#if 1
+/**
+ * SPFA算法
+ * while(队非空)
+ * -->队头出队，松弛它的边
+ * -->松弛了且不在队内的点入队
+ * 和BFS基本框架很像，主要是一个节点出队之后还可能再次入队，而如果一个节点入队超过n次就说明存在负环。
+ */
+class Solution {
+public:
+    int networkDelayTime(vector<vector<int>>& times, int n, int k) {
+        const int INF = INT_MAX / 2;
+        unordered_map<int, vector<pair<int, int>>> G;   //<u, <w,v>>
+        queue<int>  q;
+        vector<int> dist(n + 1, INF);
+        vector<bool> visited(n + 1, false); //标记的是当前节点是否在队列里，所以出队之后还要置为false。
+
+        //初始化邻接表
+        for (auto t : times) {
+            G[t[0]].push_back({t[2], t[1]});
+        }
+
+        q.push(k);
+        dist[k] = 0;
+        visited[k] = true;
+
+        while (!q.empty()) {
+            auto u = q.front();
+            q.pop();
+            visited[u] = false;     //这里与BFS不同
+
+            for (auto neighbor : G[u]) {
+                auto w = neighbor.first, v = neighbor.second;
+                if (dist[v] > dist[u] + w) {
+                    dist[v] = dist[u] + w;      //松弛
+                    if (!visited[v]) {      //如果不在队列里，则入队
+                        q.push(v);
+                        visited[v] = true;
+                    }
+                }
+            }
+        }
+
         int res = *max_element(dist.begin() + 1, dist.end());
         return res == INF ? -1 : res;
     }
